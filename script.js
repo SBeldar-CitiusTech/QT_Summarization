@@ -69,6 +69,11 @@ $(function () {
     $("#maincontent > div").hide();
     $("#contModelBench").show();
   })
+
+  $(".menu_methods_summarization").on("click", function(e){
+    $("#maincontent > div").hide();
+    $("#contMethodSummarization").show();
+  })
   
 });
 

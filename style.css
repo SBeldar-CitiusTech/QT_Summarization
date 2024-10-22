@@ -130,8 +130,13 @@ body.dark {
   content: "Model Benchmarking";
   cursor: pointer;
 }
+.menu_methods_summarization::before {
+  content: "Methods for Summarization";
+  cursor: pointer;
+}
 .menu_ref::before {
   content: "References";
+  cursor: pointer;
 }
 .sidebar.close .menu_title::before {
   content: "";
